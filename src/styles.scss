@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.list-plain {
+  list-style: none;
+}
+
+mat-list-item-centered {
+  display: inline-block !important;
+  text-align: center;
+}
+
+/* Center horizontally  */
+.mat-list {
+	.mat-list-item.center {
+		.mat-list-item-content {
+			justify-content: center;
+		}
+	}
+}
