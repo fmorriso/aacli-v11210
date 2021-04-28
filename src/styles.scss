@@ -21,16 +21,11 @@ body {
   list-style: none;
 }
 
-mat-list-item-centered {
-  display: inline-block !important;
-  text-align: center;
-}
-
-/* Center horizontally  */
+/* Center Angular Material <mat-list-item> horizontally  */
 .mat-list {
-	.mat-list-item.center {
-		.mat-list-item-content {
-			justify-content: center;
-		}
-	}
+  .mat-list-item.center {
+    .mat-list-item-content {
+      justify-content: center;
+    }
+  }
 }
